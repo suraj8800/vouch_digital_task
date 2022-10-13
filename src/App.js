@@ -1,11 +1,11 @@
 import './App.css';
-import 'antd/dist/antd.css';
-import { Button } from 'antd';
+import Login from './components/login'
 function App() {
   return (
-    <div className="App">
+    <div>
       <header className="App-header">
-        <Button>My First Button</Button>
+        <Login/>
+        
       </header>
     </div>
   );

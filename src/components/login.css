@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ant-col-10{
+    height: 100vh;
+    /* align-content: center; */
+    /* justify-content: center; */
+    margin-top: 30vh;
+    padding: 5vh;
+    text-align: center;
+}
+
+.ant-input{
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.ant-col-14{
+    background-color: #0050b3;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.ant-layout-content{
+    height: 60vh;
+    margin-top: 20vh;
+    margin-left: 20vh;
+    margin-bottom: 5vh;
+    border-bottom: 50px solid transparent;
+    border-Top: 50px solid transparent;
+    border-left: 600px solid white;
+    /* border-radius: 20px; */
+    border-radius: 10% 100% 100% 10% / 10% 20% 20% 10%;
+}
+
+.ant-typography{
+    color: white;
+}
+
+.ant-col-14 p{
+    padding-left: 150px;
+    padding-right: 150px;
+}
